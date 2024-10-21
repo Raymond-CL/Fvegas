@@ -10,6 +10,8 @@
       RETURN
       END
 
+
+      
       FUNCTION F(X,WGT)
       DOUBLE PRECISION X(2),WGT,F
       F = DEXP(-100.*(X(1)**2 + (X(2)-1)**2))*100./3.141592654D0
